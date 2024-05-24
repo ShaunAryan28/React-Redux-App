@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Shopping Cart Implementation Using React-Redux
 
 This project uses:
 -React   
