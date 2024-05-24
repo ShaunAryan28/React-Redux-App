@@ -7,12 +7,12 @@ This project uses:
 ## Available Scripts
 
 In the project directory, you can run:
-### 'npm init'  
+>`npm init`  
 
 To initialise the node files
 
 
->'npm install'  
+>`npm install`  
 
 Installs the required node_modules  
 
