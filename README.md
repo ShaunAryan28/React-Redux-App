@@ -1,6 +1,6 @@
 # Shopping Cart Implementation Using React-Redux
 
-This project uses:
+This project uses:  
 -React   
 -Redux   
 -Bootstrap
