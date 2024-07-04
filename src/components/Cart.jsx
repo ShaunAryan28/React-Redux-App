@@ -39,9 +39,9 @@ const cart = () => {
                 <td>{item.price}</td>
                 <td>{item.qt}</td>
                 <td  >
-                  <button className="btn btn-sm btn-danger " onClick={()=> handleDeleteItem(index)}>Delete</button>
+                  <button className="btn btn-sm btn-danger " onClick={()=> handleDeleteItem(index)}>Remove</button>
                   <button className="btn btn-sm btn-success m-2" onClick={()=> handleAddItem(index)}>Add</button>
-                  <button className="btn btn-sm btn-primary" onClick={()=> handleResetItem(index)}>remove</button>
+                  <button className="btn btn-sm btn-primary" onClick={()=> handleResetItem(index)}>Delete</button>
                 </td>
               </tr>
             ))}
