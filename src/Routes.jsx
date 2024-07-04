@@ -2,6 +2,7 @@
 import App from './App'
 import Cart from './components/Cart'
 import Products from './components/Products'
+import ContactUs from './components/ContactUs/ContactUs.jsx'
 import { useRoutes } from 'react-router-dom'
 const Routes = () => {
     const RouterConfig =[
@@ -14,6 +15,9 @@ const Routes = () => {
                 },
                 {
                     path: 'cart-items', element: <Cart/>
+                },
+                {
+                    path: 'contactus', element: <ContactUs/>
                 }
             ]
 

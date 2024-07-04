@@ -1,11 +1,13 @@
 //import React from "react";
-
+import { Link } from "react-router-dom";
+import { IoHome } from "react-icons/io5";
+import { FaShoppingCart } from "react-icons/fa";
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-primary text-light">
-      <a className="navbar-brand text-light" href="#">
-        Navbar
-      </a>
+    <nav className="navbar navbar-expand-lg navbar-light text-light ">
+      <button className="navbar-brand text-dark bg-white rounded-2 p-2 ms-4  btn btn-primary btn-lg" href="#">
+        Cart-iole
+      </button>
       <button
         className="navbar-toggler"
         type="button"
@@ -20,25 +22,19 @@ const Navbar = () => {
       <div className="collapse navbar-collapse text-light" id="navbarNav">
         <ul className="navbar-nav text-light">
           <li className="nav-item active text-light">
-            <a className="nav-link text-light" href="#">
-              Home <span className="sr-only">(current)</span>
-            </a>
+          <Link to="/" className="nav-link text-light">
+            <IoHome  />
+            </Link>
           </li>
           <li className="nav-item text-light">
-            <a className="nav-link text-light " href="#">
-              Features
-            </a>
+          <Link to="/cart-items"className="nav-link text-light" >
+          < FaShoppingCart/>
+          </Link>
           </li>
           <li className="nav-item text-light">
-            <a className="nav-link text-light" href="#">
-              Pricing
-            </a>
+          <Link to="/contactus"className="nav-link text-light" >contactus</Link>
           </li>
-          <li className="nav-item text-light">
-            <a className="nav-link disabled text-light" href="#">
-              Disabled
-            </a>
-          </li>
+          
         </ul>
       </div>
     </nav>

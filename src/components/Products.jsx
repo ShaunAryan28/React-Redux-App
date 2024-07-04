@@ -9,11 +9,11 @@ const Products = () => {
    const {productList} = useSelector(state => state.product)
   return (
     <>
-      <div className="container">
+      <div className="container text-white">
         <h2 className="my-5">Products</h2>
         <div>
           <p>
-            Cart Items: {totalQuantity} <Link to="/cart-items">View all</Link>
+            Cart Items: {totalQuantity}
           </p>
           <p>
             <button className="btn btn-danger" onClick={()=> dispatch(resetCart())}>Clear Cart</button>
